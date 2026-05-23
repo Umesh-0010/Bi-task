@@ -21,7 +21,7 @@
 
     return (
       <nav
-        className="w-full px-4 py-1 flex items-center gap-1 flex-nowrap relative l"
+        className="w-full px-4 py-1 flex items-center gap-1 flex-nowrap relative "
         style={{
           background: "linear-gradient(180deg, #1e6fa3 0%, #1a5f8a 100%)",
           borderBottom: "2px solid #145078",
@@ -61,7 +61,7 @@
                   {item.icon}
                 </span>
                 <span
-                className="text-xl"
+                className="text-sm"
                   style={{
                     letterSpacing: "0.02em",
                     display: "inline-block",

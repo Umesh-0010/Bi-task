@@ -100,3 +100,32 @@ export const NAV_ITEMS = [
     href: "/media" 
   },
 ];
+
+export const slides = [
+  { id: 1, img: "/Images/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.webp" },
+  { id: 2, img: "/Images/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg" },
+  { id: 3, img: "/Images/tiger-2535888_640.jpg" },
+  { id: 4, img: "/Images/tiger-wild-winter-nature-amur-tiger-running-snow-action-wildlife-scene-danger-animal-cold-winter-tajga-russ-84783074.webp" },
+  { id: 5, img: "/Images/istockphoto-814423752-612x612.jpg" },
+];
+
+export const leaders = [
+  {
+    id: 1,
+    name: 'Shri Om Prakash Mathur',
+    title: "Hon'ble Governor of Sikkim",
+    img: '/Images/om_prakash_mathur_9cdc4530cc.jpg',
+  },
+  {
+    id: 2,
+    name: 'Shri Prem Singh Tamang (Golay)',
+    title: "Hon'ble Chief Minister of Sikkim",
+    img: '/Images/prem(golay).jpg',
+  },
+  {
+    id: 3,
+    name: 'Shri Samdup Lepcha',
+    title: "Hon'ble Minister",
+    img: '/Images/Samdup-Lepcha.jpg',
+  },
+]
