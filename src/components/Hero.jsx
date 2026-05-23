@@ -11,7 +11,7 @@ function Hero() {
   return (
     <>
       <div className="h-full w-full  flex items-center justify-center p-10">
-        <div className='h-full w-[95%] bg-amber-50 rounded-2xl overflow-hidden'>
+        <div className='h-full w-full bg-amber-50 rounded-2xl overflow-hidden'>
       <Swiper
         modules={[Autoplay, Pagination]}
         slidesPerView={1}

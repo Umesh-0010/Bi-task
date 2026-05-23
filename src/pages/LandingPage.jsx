@@ -11,12 +11,12 @@ function LandingPage() {
   return (
     <div className="bg-[#0A5F85]">
       <Notice />
-      <TopBar />
+       <TopBar />
       <Hero />
       <Liderprofile />
       <Post />
       <Posts2 />
-      <FooterComponent />
+      <FooterComponent /> 
     </div>
   );
 }

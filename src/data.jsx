@@ -16,16 +16,17 @@ export const notice =
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, necessitatibus libero, nostrum";
 
 export const images = [
-  {
+   {
     id: 1,
-    name: "Sikkim ",
-    img: "/Images/govt-of-sikkim-logo-png_seeklogo-615865.png",
-  },
-  {
-    id: 2,
     name: "Capital of Ashoka ",
     img: "/Images/Lion Capital of Ashoka .png",
   },
+  {
+    id: 2,
+    name: "Sikkim ",
+    img: "/Images/govt-of-sikkim-logo-png_seeklogo-615865.png",
+  },
+ 
   {
     id: 3,
     name: "Sunawlo Sikkim",

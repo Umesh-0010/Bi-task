@@ -21,7 +21,7 @@
 
     return (
       <nav
-        className="w-full px-4 py-1 flex items-center gap-1 flex-nowrap relative "
+        className="w-full px-4 py-1 flex items-center gap-1 flex-nowrap relative"
         style={{
           background: "linear-gradient(180deg, #1e6fa3 0%, #1a5f8a 100%)",
           borderBottom: "2px solid #145078",
@@ -99,7 +99,7 @@
                 <div
                   onMouseEnter={() => clearTimeout(closeTimer.current)}
                   onMouseLeave={handleMouseLeave}
-                  className={`absolute top-full left-0 min-w-[170px] rounded-md overflow-hidden shadow-xl z-50 transition-all duration-200 ${
+                  className={`absolute top-full left-0 min-w-42.5 rounded-md overflow-hidden shadow-xl z-50 transition-all duration-200 ${
                     openIndex === i
                       ? "opacity-100 translate-y-0 pointer-events-auto"
                       : "opacity-0 -translate-y-2 pointer-events-none"

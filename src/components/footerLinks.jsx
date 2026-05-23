@@ -71,7 +71,7 @@ export default function RelatedLinks() {
   );
 
   return (
-    <div className="bg-[#2b7db8] rounded-2xl p-6 w-full border border-sky-100">
+    <div className="bg-[#2b7db8] rounded-2xl p-6 w-full border border-sky-100 ">
       {/* Header */}
       <div className="flex items-center justify-between mb-5">
         <p className="text-yellow-400 text-xs font-bold tracking-widest uppercase">
