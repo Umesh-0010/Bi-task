@@ -71,7 +71,7 @@ export default function RelatedLinks() {
   );
 
   return (
-    <div className="bg-[#2b7db8] rounded-2xl p-6 w-full border-1 border-sky-100">
+    <div className="bg-[#2b7db8] rounded-2xl p-6 w-full border border-sky-100">
       {/* Header */}
       <div className="flex items-center justify-between mb-5">
         <p className="text-yellow-400 text-xs font-bold tracking-widest uppercase">
@@ -84,17 +84,17 @@ export default function RelatedLinks() {
       </div>
 
       {/* Cards Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 min-h-[120px] ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 min-h-30 ">
         {currentItems.map((link) => (
           <a
             key={link.id}
             href={link.url}
             target="_blank"
             rel="noreferrer"
-            className="flex items-start gap-3 bg-[#3a8ec9] hover:bg-[#4499d4] transition-colors rounded-xl p-4 group  border-1 border-sky-100"
+            className="flex items-start gap-3 bg-[#3a8ec9] hover:bg-[#4499d4] transition-colors rounded-xl p-4 group  border border-sky-100"
           >
             {/* Icon */}
-            <div className="min-w-[34px] h-[34px] rounded-lg bg-[#2b7db8] flex items-center justify-center mt-0.5  border-1 border-sky-100">
+            <div className="min-w-8.5 h-8.5 rounded-lg bg-[#2b7db8] flex items-center justify-center mt-0.5  border border-sky-100">
               <ExternalLink size={15} className="text-yellow-400 " />
             </div>
 
@@ -114,7 +114,7 @@ export default function RelatedLinks() {
  
 
       {/* Pagination */}
-      <div className="w-full h-[1.5px] bg-gradient-to-r from-transparent via-white to-transparent mt-6" />
+      <div className="w-full h-[1.5px] bg-linear-to-r from-transparent via-white to-transparent mt-6" />
       <div className="flex items-center justify-center gap-3 mt-4  ">
         {/* Prev */}
         <button
@@ -149,7 +149,7 @@ export default function RelatedLinks() {
           {page + 1} of {totalPages}
         </span>
       </div>
-      <div className="w-full h-[1.5px] bg-gradient-to-r from-transparent via-white to-transparent  mt-4" />
+      <div className="w-full h-[1.5px] bg-linear-to-r from-transparent via-white to-transparent  mt-4" />
 
     </div>
   );

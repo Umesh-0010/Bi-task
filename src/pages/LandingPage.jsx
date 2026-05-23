@@ -12,9 +12,9 @@ import FooterComponent from "../components/FooterComponent";
 function LandingPage() {
   return (
     <div className="bg-[#0A5F85]">
-      <Notice />
-      <TopBar />
-      <Hero />
+      {/* <Notice />
+      <TopBar /> */}
+      <Hero /> 
       {/* <Hero1/> */}
       <Liderprofile />
       <Post/>

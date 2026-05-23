@@ -10,7 +10,7 @@ import { slides } from "../data"
 function Hero() {
   return (
     <>
-      <div className="h-172.5 w-366.75  flex items-center justify-center p-10">
+      <div className="h-full w-full  flex items-center justify-center p-10">
         <div className='h-full w-[95%] bg-amber-50 rounded-2xl overflow-hidden'>
       <Swiper
         modules={[Autoplay, Pagination]}
@@ -21,7 +21,7 @@ function Hero() {
         style={{ height: '100%', width: '100%' }}
       >
         {slides.map((slide) => (
-          <SwiperSlide key={slide.id} className=" h-[100%] w-[100%] rounded-2xl">
+          <SwiperSlide key={slide.id} className=" h-full w-full rounded-2xl">
              
             <img
               src={slide.img}

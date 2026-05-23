@@ -25,7 +25,7 @@ function Posts2() {
 
   return (
     <>
-      <div className="w-full h-[1.5px] bg-gradient-to-r from-transparent via-blue-700 to-transparent" />
+      <div className="w-full h-[1.5px] bg-linear-to-r from-transparent via-blue-700 to-transparent" />
     
     <div className="w-full min-h-screen bg-white flex flex-col md:flex-row ">
       <div className="w-full md:w-1/2 flex flex-col items-start justify-start px-12 py-16 ">

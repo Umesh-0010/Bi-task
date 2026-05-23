@@ -37,7 +37,7 @@ function LeaderProfile() {
           </div>
         ))}
       </div>
-      <div className="w-full h-[1.5px] bg-gradient-to-r from-transparent via-blue-700 to-transparent  mt-8" />
+      <div className="w-full h-[1.5px] bg-linear-to-r from-transparent via-blue-700 to-transparent  mt-8" />
 
     </div>
   )
