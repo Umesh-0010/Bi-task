@@ -33,7 +33,7 @@ function Post() {
     <>
       <div className="w-full min-h-screen bg-white flex flex-col md:flex-row ">
         {/* Left — Text Content */}
-        <div className="w-full md:w-1/2 flex items-start justify-center px-12 py-16 ">
+        <div className="w-full md:w-1/2 flex items-start justify-center px-4 lg:px-12 lg:py-16 ">
           <div className="max-w-lg">
             <div className="flex items-center gap-2 mb-4">
               <span className="text-blue-700 text-lg">
@@ -47,7 +47,7 @@ function Post() {
               About Sikkim
             </h1>
             <div className="w-10 h-1 bg-yellow-400 mb-5" />
-            <p className="text-xl text-gray-600 leading-relaxed overflow-hidden">
+            <p className="text-sm lg:text-xl text-gray-600 leading-relaxed overflow-hidden">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Perferendis maxime in quia debitis, reprehenderit nihil iusto est
               at sed recusandae quos repudiandae cumque voluptates aspernatur
@@ -66,7 +66,7 @@ function Post() {
         </div>
 
         {/* Right — Image */}
-        <div className="w-full md:w-1/2 flex flex-col items-start justify-start px-12 py-16 ">
+        <div className="w-full md:w-1/2 flex flex-col items-start justify-start p-4 lg:px-12 lg:py-16 ">
           <div className=" h-150 w-full rounded-3xl overflow-hidden shadow-xl">
             <img
               src="/Images/buddha.jpg"
@@ -75,17 +75,17 @@ function Post() {
             />
           </div>
 
-          <div className="grid grid-cols-2 gap-4 mt-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8">
             {stats.map((stat) => (
               <div
                 key={stat.id}
-                className="bg-gray-50 w-70 rounded-2xl p-4 flex flex-col gap-2 border border-gray-100"
+                className="bg-gray-50 w-70 rounded-2xl p-4 flex flex-col gap-2 border border-gray-100  text-gray-900 hover:bg-blue-500 hover:text-white"
               >
                 <div className="bg-white w-9 h-9  rounded-lg flex items-center justify-center shadow-sm border border-gray-100">
                   {stat.icon}
                 </div>
-                <p className="text-lg font-bold text-gray-900">{stat.value}</p>
-                <p className="text-xs text-gray-500">{stat.label}</p>
+                <p className="text-lg font-bold ">{stat.value}</p>
+                <p className="text-xs ">{stat.label}</p>
               </div>
             ))}
           </div>

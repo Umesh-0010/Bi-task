@@ -4,7 +4,7 @@ import {leaders} from '../data'
 
 function LeaderProfile() {
   return (
-    <div className="w-full bg-white py-12 flex flex-col items-center">
+    <div className="w-full bg-white p-2 lg:py-12 flex flex-col items-center">
 
       {/* Section Title */}
       <p className="text-xs font-semibold tracking-[0.2em] text-blue-500 uppercase mb-10">
