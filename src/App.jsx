@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from "@vercel/analytics/next"
 import Notice from "./components/Notice";
 import TopBar from "./components/TopBar";
 import FooterComponent from "./components/FooterComponent";
