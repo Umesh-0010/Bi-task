@@ -2,12 +2,12 @@ import { Users, Clock, Eye } from "lucide-react";
 
 export default function FooterInfo() {
   return (
-    <div className="] p-6 flex flex-col md:flex-row gap-4">
+    <div className=" mt-3 flex flex-col md:flex-row gap-4">
       
       {/* Left Card — Logo & Title */}
-      <div className="flex-1 bg-[#2B7DB8] rounded-2xl p-6 flex items-center gap-5 border border-sky-100">
+      <div className=" flex-col lg:flex-1 lg:flex-row lg:pl-10 bg-[#2B7DB8] rounded-2xl p-6 flex items-center gap-5 border border-sky-100">
         {/* Logo */}
-        <div className="w-22.5 h-22.5 rounded-full overflow-hidden border-2 border-white/30">
+        <div className=" w-22.5 h-22.5 rounded-full overflow-hidden border-2 border-white/30">
           <img
             src="/Images/Sunawlo Sikkim.png"
             alt="Institute Logo"
@@ -26,7 +26,7 @@ export default function FooterInfo() {
       </div>
 
       {/* Right Card — Website Info */}
-      <div className="flex-1 bg-[#2B7DB8] rounded-2xl p-6 border border-sky-100">
+      <div className="flex-1 lg:pl-10 bg-[#2B7DB8] rounded-2xl p-6 border border-sky-100">
         <p className="text-yellow-400 text-xs font-bold tracking-widest uppercase mb-4">
           Website Info
         </p>

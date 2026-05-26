@@ -53,7 +53,7 @@ export const NAV_ITEMS = [
   {
     label: "About Us",
     icon: <BsInfoCircle />,
-    href: "/about",
+    
     dropdown: [
       { label: "List of Officers", href: "/about/#" },
       { label: "Our Team",         href: "/about/team" },
@@ -67,7 +67,7 @@ export const NAV_ITEMS = [
   {
     label: "Safety & Disaster",
     icon: <GoShieldCheck />,
-    href: "#",
+    
     dropdown: [
       { label: "Safety Tips",      href: "/safety-tips" },
       { label: "Disaster History", href: "/disaster-history" },
@@ -77,7 +77,7 @@ export const NAV_ITEMS = [
   {
     label: "Response",
     icon: <BiSolidMessageAltError />,
-    href: "#",
+  
     dropdown: [
       { label: "Response",  href: "/response" },
       { label: "Resources", href: "/resources" },
@@ -86,7 +86,7 @@ export const NAV_ITEMS = [
   {
     label: "Information",
     icon: <GoBook />,
-    href: "#",
+    
     dropdown: [
       { label: "Latest News",    href: "/updates/news" },
       { label: "Announcements",  href: "/updates/announcements" },

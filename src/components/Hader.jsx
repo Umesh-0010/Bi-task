@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
-import { images } from "../data.jsx";
+import { images } from "../data";
 
-// Custom hook to detect screen size
 const useIsMobile = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 640);
 

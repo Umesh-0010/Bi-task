@@ -30,16 +30,13 @@ function TopBar() {
         </div>
 
         <Header />
-        {/* Desktop — hidden on mobile, visible on lg+ */}
         <div className="hidden lg:block">
           <Navbar />
         </div>
 
-        {/* Mobile — visible on mobile, hidden on lg+ */}
         <div className="block lg:hidden">
           <MobileNav />
         </div>
-        
       </div>
     </>
   );
